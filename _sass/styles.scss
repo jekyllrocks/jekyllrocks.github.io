@@ -1,0 +1,121 @@
+.clear {
+    clear: both;
+}
+body {
+    background-image: url(../img/bg.png);
+    background-position-x: left;
+    background-position-y: middle;
+    background-repeat: repeat-x;
+}
+#wrapper {
+    display: block;
+    width: 1024px;
+    min-height: 1029px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -512px 0 0 -515px;
+    background: url(../img/bg-wrap.png) no-repeat;
+}
+h1 img {
+    display: none;
+}
+h1 a {
+    display: block;
+    width: 324px;
+    height: 124px;
+    background: url(../img/logo.png) top left no-repeat;
+    overflow: hidden;
+    white-space: nowrap;
+    text-indent: 9999px;
+    margin: 475px auto 160px auto;
+}
+#social-media {
+    list-style: none;
+    margin: 0 auto 20px auto;
+    padding: 0;
+    display: block;
+    width: 211px;
+    height: 39px;
+}
+#social-media li {
+    float: left;
+    margin-right: 15px;
+}
+#social-media li:last-child {
+    margin-right: 0px;
+}
+#social-media li a:link,
+#social-media li a:visited {
+    background: url(../img/icons-sprite-social-media.png) top left no-repeat;
+    display: block;
+    width: 39px;
+    height: 39px;
+    overflow: hidden;
+    text-indent: 9999px;
+    white-space: nowrap;
+}
+#social-media li a:focus,
+#social-media li a:active,
+#social-media li a:hover {
+    background-position-y: -39px;
+}
+#social-media li.twitter a {
+    background-position-x: 0px;
+}
+#social-media li.soundcloud a {
+    background-position-x: -55px;
+    width: 49px;
+}
+#social-media li.facebook a {
+    background-position-x: -127px;
+}
+#social-media li.reverbnation a {
+    background-position-x: -185px;
+}
+#newsletter {
+    background: rgba(90,12,34,.4);
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    width: 400px;
+    margin: 0px auto;
+    padding: 7px 0px 7px 10px;
+}
+#newsletter h2 {
+    font-size: 11px;
+    font-weight: normal;
+    float: left;
+    line-height: 11px;
+    margin-right: 10px;
+}
+#newsletter label {
+    display: none;
+    float: left;
+}
+#newsletter input {
+    margin: 0px;
+}
+#newsletter .field {
+    float: left;
+    margin-right: 7px;
+}
+#newsletter .field:last-child {
+    margin-right: 0px;
+}
+#copyright {
+    text-align: center;
+    font-size: 10px;
+    color: #740026;
+    padding: 25px 0px;
+}
+#copyright a:link,
+#copyright a:visited {
+    color: #740026;
+    text-decoration: none;
+}
+#copyright a:focus,
+#copyright a:active,
+#copyright a:hover {
+    text-decoration: underline;
+}
