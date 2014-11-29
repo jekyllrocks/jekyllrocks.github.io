@@ -8,14 +8,14 @@ body {
     background-repeat: repeat-x;
 }
 #wrapper {
-    display: block;
-    width: 1024px;
-    min-height: 1029px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -512px 0 0 -515px;
-    background: url(../img/bg-wrap.png) no-repeat;
+    // display: block;
+    // width: 1024px;
+    // min-height: 1029px;
+    // position: absolute;
+    // top: 50%;
+    // left: 50%;
+    // margin: -512px 0 0 -515px;
+    background: url(../img/bg-wrap.png) center middle no-repeat;
 }
 h1 img {
     display: none;
