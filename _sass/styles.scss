@@ -115,10 +115,12 @@ h1 a {
 }
 
 .btn-primary {
-    background-color: #740026;
-    border-color: #740026;
+    background-color: #b8003d;
+    border-color: #b8003d;
+    &:focus,
+    &:active,
     &:hover {
-        background-color: #520004;
-        border-color: #520004;
+        background-color: #740026;
+        border-color: #740026;
     }
 }
