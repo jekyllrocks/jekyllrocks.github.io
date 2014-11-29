@@ -113,3 +113,12 @@ h1 a {
 #copyright a:hover {
     text-decoration: underline;
 }
+
+.btn-primary {
+    background-color: #740026;
+    border-color: #740026;
+    &:hover {
+        background-color: #520004;
+        border-color: #520004;
+    }
+}
