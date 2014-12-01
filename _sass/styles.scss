@@ -6,9 +6,11 @@ body {
     background-position-x: left;
     background-position-y: middle;
     background-repeat: repeat-x;
+    background-color: #000000;
 }
 #wrapper {
-    background: url(../img/bg-wrap.png) center -200px no-repeat;
+    background: url(../img/bg-wrap.png) center -60px no-repeat;
+    min-height: 900px;
 }
 h1 img {
     display: none;
