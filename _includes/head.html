@@ -1,32 +1,16 @@
 <head>
 
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width initial-scale=1" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-	<title>{{ site.title }} &mdash; {{site.slogan}}{% if page.title %} | {{ page.title }}{% endif %}</title>
-	<meta name="description" content="{{ site.description }}">
-
-	<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-
-	<script language="javascript" type="text/javascript" src="{{ "//code.jquery.com/jquery-2.1.1.min.js" }}"></script>
-	<script language="javascript" type="text/javascript" src="{{ "/js/bootstrap.js" | prepend: site.baseurl }}"></script>
-
-	<script type="text/javascript">
-
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-36984980-1']);
-		_gaq.push(['_setDomainName', 'jekyllrocks.com']);
-		_gaq.push(['_setAllowLinker', true]);
-		_gaq.push(['_trackPageview']);
-
-		(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		})();
-
-	</script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <title>{{ site.title }} &mdash; {{site.slogan}}{% if page.title %} | {{ page.title }}{% endif %}</title>
+  <meta name="description" content="{{ site.description }}">
+  
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  
+  <script language="javascript" type="text/javascript" src="{{ "//code.jquery.com/jquery-2.1.1.min.js" }}"></script>
+  <script language="javascript" type="text/javascript" src="{{ "/js/bootstrap.js" | prepend: site.baseurl }}"></script>
 
 </head>
